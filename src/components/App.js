@@ -33,7 +33,7 @@ class App extends React.Component{
             <div className='ui container'>
                 <SearchBar callApiSearch={this.CallApi}/>
                 <div className="ui grid">
-                  <div className='ui row'>
+                  <div className="ui row">
                     <div className="eleven wide column">
                       <VideoDetails video={this.state.selectedVideo}/>
                     </div>
